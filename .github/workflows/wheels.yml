@@ -2,8 +2,7 @@
 name: Wheel Builds
 on:
   push:
-    tags:
-      - '*'
+    branches: [ '1.1.2-ci-fix' ]
 jobs:
   build_wheels:
     name: Build wheels
